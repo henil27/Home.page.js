@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: blanchedalmond;
+}
+ul li{
+    list-style-type: none;
+    margin: 10px 20px;
+    padding: 5px;
+    transition: .5s;
+}
+ul li:hover{
+    background-color: blueviolet;
+}
+ul li:hover a{
+    color: white;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home{
+    background-color: aqua;
+}
+.about{
+    background-color: lightcoral;
+    display: none;
+}
+.contact{
+    background-color: lightgray;
+    display: none;
+
+}
